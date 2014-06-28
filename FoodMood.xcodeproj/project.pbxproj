@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5137ADB9195EC28200A5824B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5137ADB8195EC28200A5824B /* Foundation.framework */; };
+		5137ADBB195EC28200A5824B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5137ADBA195EC28200A5824B /* CoreGraphics.framework */; };
+		5137ADBD195EC28200A5824B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5137ADBC195EC28200A5824B /* UIKit.framework */; };
+		5137ADC3195EC28200A5824B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5137ADC1195EC28200A5824B /* InfoPlist.strings */; };
+		5137ADC5195EC28200A5824B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137ADC4195EC28200A5824B /* main.m */; };
+		5137ADC9195EC28200A5824B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137ADC8195EC28200A5824B /* AppDelegate.m */; };
+		5137ADCC195EC28200A5824B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5137ADCA195EC28200A5824B /* Main_iPhone.storyboard */; };
+		5137ADCF195EC28200A5824B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5137ADCD195EC28200A5824B /* Main_iPad.storyboard */; };
+		5137ADD4195EC28200A5824B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5137ADD3195EC28200A5824B /* Images.xcassets */; };
+		5137ADDB195EC28200A5824B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5137ADDA195EC28200A5824B /* XCTest.framework */; };
+		5137ADDC195EC28200A5824B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5137ADB8195EC28200A5824B /* Foundation.framework */; };
+		5137ADDD195EC28200A5824B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5137ADBC195EC28200A5824B /* UIKit.framework */; };
+		5137ADE5195EC28200A5824B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5137ADE3195EC28200A5824B /* InfoPlist.strings */; };
+		5137ADE7195EC28200A5824B /* FoodMoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137ADE6195EC28200A5824B /* FoodMoodTests.m */; };
+		5137ADF5195EC70E00A5824B /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137ADF4195EC70E00A5824B /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		5137AE05195ECA2600A5824B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137AE04195ECA2600A5824B /* Constants.m */; };
+		5137AE19195ED94A00A5824B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137AE14195ED94A00A5824B /* RootViewController.m */; };
+		5137AE1B195ED94A00A5824B /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137AE18195ED94A00A5824B /* PhotoViewController.m */; };
+		5137AE1E195ED9AB00A5824B /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137AE1D195ED9AB00A5824B /* CameraViewController.m */; };
+		5137AE6F195EF1DB00A5824B /* DDScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5137AE6E195EF1DB00A5824B /* DDScrollViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5137ADDE195EC28200A5824B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5137ADAD195EC28200A5824B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5137ADB4195EC28200A5824B;
+			remoteInfo = FoodMood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5137ADB5195EC28200A5824B /* FoodMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5137ADB8195EC28200A5824B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5137ADBA195EC28200A5824B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5137ADBC195EC28200A5824B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5137ADC0195EC28200A5824B /* FoodMood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodMood-Info.plist"; sourceTree = "<group>"; };
+		5137ADC2195EC28200A5824B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5137ADC4195EC28200A5824B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5137ADC6195EC28200A5824B /* FoodMood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodMood-Prefix.pch"; sourceTree = "<group>"; };
+		5137ADC7195EC28200A5824B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5137ADC8195EC28200A5824B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5137ADCB195EC28200A5824B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5137ADCE195EC28200A5824B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5137ADD3195EC28200A5824B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5137ADD9195EC28200A5824B /* FoodMoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodMoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5137ADDA195EC28200A5824B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5137ADE2195EC28200A5824B /* FoodMoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodMoodTests-Info.plist"; sourceTree = "<group>"; };
+		5137ADE4195EC28200A5824B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5137ADE6195EC28200A5824B /* FoodMoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodMoodTests.m; sourceTree = "<group>"; };
+		5137ADF3195EC70900A5824B /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		5137ADF4195EC70E00A5824B /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		5137AE03195ECA2600A5824B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5137AE04195ECA2600A5824B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		5137AE13195ED94A00A5824B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5137AE14195ED94A00A5824B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5137AE17195ED94A00A5824B /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		5137AE18195ED94A00A5824B /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		5137AE1C195ED9AB00A5824B /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		5137AE1D195ED9AB00A5824B /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		5137AE6D195EF1DB00A5824B /* DDScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDScrollViewController.h; sourceTree = "<group>"; };
+		5137AE6E195EF1DB00A5824B /* DDScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDScrollViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5137ADB2195EC28200A5824B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5137ADBB195EC28200A5824B /* CoreGraphics.framework in Frameworks */,
+				5137ADBD195EC28200A5824B /* UIKit.framework in Frameworks */,
+				5137ADB9195EC28200A5824B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5137ADD6195EC28200A5824B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5137ADDB195EC28200A5824B /* XCTest.framework in Frameworks */,
+				5137ADDD195EC28200A5824B /* UIKit.framework in Frameworks */,
+				5137ADDC195EC28200A5824B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5137ADAC195EC28200A5824B = {
+			isa = PBXGroup;
+			children = (
+				5137AE20195EECA000A5824B /* reference */,
+				5137ADBE195EC28200A5824B /* FoodMood */,
+				5137ADE0195EC28200A5824B /* FoodMoodTests */,
+				5137ADB7195EC28200A5824B /* Frameworks */,
+				5137ADB6195EC28200A5824B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5137ADB6195EC28200A5824B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5137ADB5195EC28200A5824B /* FoodMood.app */,
+				5137ADD9195EC28200A5824B /* FoodMoodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5137ADB7195EC28200A5824B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5137ADB8195EC28200A5824B /* Foundation.framework */,
+				5137ADBA195EC28200A5824B /* CoreGraphics.framework */,
+				5137ADBC195EC28200A5824B /* UIKit.framework */,
+				5137ADDA195EC28200A5824B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5137ADBE195EC28200A5824B /* FoodMood */ = {
+			isa = PBXGroup;
+			children = (
+				5137AE03195ECA2600A5824B /* Constants.h */,
+				5137AE04195ECA2600A5824B /* Constants.m */,
+				5137AE09195ED68300A5824B /* iPad */,
+				5137ADF6195EC7B800A5824B /* Controllers */,
+				5137ADC7195EC28200A5824B /* AppDelegate.h */,
+				5137ADC8195EC28200A5824B /* AppDelegate.m */,
+				5137ADCA195EC28200A5824B /* Main_iPhone.storyboard */,
+				5137ADCD195EC28200A5824B /* Main_iPad.storyboard */,
+				5137ADD3195EC28200A5824B /* Images.xcassets */,
+				5137ADBF195EC28200A5824B /* Supporting Files */,
+			);
+			path = FoodMood;
+			sourceTree = "<group>";
+		};
+		5137ADBF195EC28200A5824B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5137ADC0195EC28200A5824B /* FoodMood-Info.plist */,
+				5137ADC1195EC28200A5824B /* InfoPlist.strings */,
+				5137ADC4195EC28200A5824B /* main.m */,
+				5137ADC6195EC28200A5824B /* FoodMood-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5137ADE0195EC28200A5824B /* FoodMoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				5137ADE6195EC28200A5824B /* FoodMoodTests.m */,
+				5137ADE1195EC28200A5824B /* Supporting Files */,
+			);
+			path = FoodMoodTests;
+			sourceTree = "<group>";
+		};
+		5137ADE1195EC28200A5824B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5137ADE2195EC28200A5824B /* FoodMoodTests-Info.plist */,
+				5137ADE3195EC28200A5824B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5137ADF2195EC6E800A5824B /* ALAsseetsLibrary-CustomPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5137ADF4195EC70E00A5824B /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				5137ADF3195EC70900A5824B /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+			);
+			name = "ALAsseetsLibrary-CustomPhotoAlbum";
+			sourceTree = "<group>";
+		};
+		5137ADF6195EC7B800A5824B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5137AE13195ED94A00A5824B /* RootViewController.h */,
+				5137AE14195ED94A00A5824B /* RootViewController.m */,
+				5137AE17195ED94A00A5824B /* PhotoViewController.h */,
+				5137AE18195ED94A00A5824B /* PhotoViewController.m */,
+				5137AE1C195ED9AB00A5824B /* CameraViewController.h */,
+				5137AE1D195ED9AB00A5824B /* CameraViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5137AE09195ED68300A5824B /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		5137AE20195EECA000A5824B /* reference */ = {
+			isa = PBXGroup;
+			children = (
+				5137AE22195EECC200A5824B /* ScrollView */,
+				5137AE21195EECAE00A5824B /* Camera+CustomAlbum */,
+			);
+			name = reference;
+			sourceTree = "<group>";
+		};
+		5137AE21195EECAE00A5824B /* Camera+CustomAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5137ADF2195EC6E800A5824B /* ALAsseetsLibrary-CustomPhotoAlbum */,
+			);
+			name = "Camera+CustomAlbum";
+			sourceTree = "<group>";
+		};
+		5137AE22195EECC200A5824B /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5137AE6D195EF1DB00A5824B /* DDScrollViewController.h */,
+				5137AE6E195EF1DB00A5824B /* DDScrollViewController.m */,
+			);
+			name = ScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5137ADB4195EC28200A5824B /* FoodMood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5137ADEA195EC28200A5824B /* Build configuration list for PBXNativeTarget "FoodMood" */;
+			buildPhases = (
+				5137ADB1195EC28200A5824B /* Sources */,
+				5137ADB2195EC28200A5824B /* Frameworks */,
+				5137ADB3195EC28200A5824B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodMood;
+			productName = FoodMood;
+			productReference = 5137ADB5195EC28200A5824B /* FoodMood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5137ADD8195EC28200A5824B /* FoodMoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5137ADED195EC28200A5824B /* Build configuration list for PBXNativeTarget "FoodMoodTests" */;
+			buildPhases = (
+				5137ADD5195EC28200A5824B /* Sources */,
+				5137ADD6195EC28200A5824B /* Frameworks */,
+				5137ADD7195EC28200A5824B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5137ADDF195EC28200A5824B /* PBXTargetDependency */,
+			);
+			name = FoodMoodTests;
+			productName = FoodMoodTests;
+			productReference = 5137ADD9195EC28200A5824B /* FoodMoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5137ADAD195EC28200A5824B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "匡匡－mac";
+				TargetAttributes = {
+					5137ADD8195EC28200A5824B = {
+						TestTargetID = 5137ADB4195EC28200A5824B;
+					};
+				};
+			};
+			buildConfigurationList = 5137ADB0195EC28200A5824B /* Build configuration list for PBXProject "FoodMood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5137ADAC195EC28200A5824B;
+			productRefGroup = 5137ADB6195EC28200A5824B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5137ADB4195EC28200A5824B /* FoodMood */,
+				5137ADD8195EC28200A5824B /* FoodMoodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5137ADB3195EC28200A5824B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5137ADCF195EC28200A5824B /* Main_iPad.storyboard in Resources */,
+				5137ADD4195EC28200A5824B /* Images.xcassets in Resources */,
+				5137ADCC195EC28200A5824B /* Main_iPhone.storyboard in Resources */,
+				5137ADC3195EC28200A5824B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5137ADD7195EC28200A5824B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5137ADE5195EC28200A5824B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5137ADB1195EC28200A5824B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5137AE1B195ED94A00A5824B /* PhotoViewController.m in Sources */,
+				5137AE6F195EF1DB00A5824B /* DDScrollViewController.m in Sources */,
+				5137ADC9195EC28200A5824B /* AppDelegate.m in Sources */,
+				5137AE19195ED94A00A5824B /* RootViewController.m in Sources */,
+				5137AE05195ECA2600A5824B /* Constants.m in Sources */,
+				5137AE1E195ED9AB00A5824B /* CameraViewController.m in Sources */,
+				5137ADC5195EC28200A5824B /* main.m in Sources */,
+				5137ADF5195EC70E00A5824B /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5137ADD5195EC28200A5824B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5137ADE7195EC28200A5824B /* FoodMoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5137ADDF195EC28200A5824B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5137ADB4195EC28200A5824B /* FoodMood */;
+			targetProxy = 5137ADDE195EC28200A5824B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5137ADC1195EC28200A5824B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5137ADC2195EC28200A5824B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5137ADCA195EC28200A5824B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5137ADCB195EC28200A5824B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5137ADCD195EC28200A5824B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5137ADCE195EC28200A5824B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5137ADE3195EC28200A5824B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5137ADE4195EC28200A5824B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5137ADE8195EC28200A5824B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5137ADE9195EC28200A5824B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5137ADEB195EC28200A5824B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodMood/FoodMood-Prefix.pch";
+				INFOPLIST_FILE = "FoodMood/FoodMood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5137ADEC195EC28200A5824B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodMood/FoodMood-Prefix.pch";
+				INFOPLIST_FILE = "FoodMood/FoodMood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5137ADEE195EC28200A5824B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodMood.app/FoodMood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodMood/FoodMood-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FoodMoodTests/FoodMoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5137ADEF195EC28200A5824B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodMood.app/FoodMood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodMood/FoodMood-Prefix.pch";
+				INFOPLIST_FILE = "FoodMoodTests/FoodMoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5137ADB0195EC28200A5824B /* Build configuration list for PBXProject "FoodMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5137ADE8195EC28200A5824B /* Debug */,
+				5137ADE9195EC28200A5824B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5137ADEA195EC28200A5824B /* Build configuration list for PBXNativeTarget "FoodMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5137ADEB195EC28200A5824B /* Debug */,
+				5137ADEC195EC28200A5824B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5137ADED195EC28200A5824B /* Build configuration list for PBXNativeTarget "FoodMoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5137ADEE195EC28200A5824B /* Debug */,
+				5137ADEF195EC28200A5824B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5137ADAD195EC28200A5824B /* Project object */;
+}
